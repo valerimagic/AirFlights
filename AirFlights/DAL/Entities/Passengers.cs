@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace DAL.Entities
@@ -22,5 +23,8 @@ namespace DAL.Entities
         [Required]
         [MaxLength(3)]
         public string LuggageKG { get; set; }
+
+        public Flights FlightsId { get; set; }
+
     }
 }

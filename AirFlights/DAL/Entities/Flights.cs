@@ -19,5 +19,9 @@ namespace DAL.Entities
         [MaxLength(20)]
         public string Arrival { get; set; }
 
+        public Airplanes AirplaneId { get; set; }
+
+        public ICollection<Passengers> Passengerses { get; set; } = new HashSet<Passengers>();
+
     }
 }

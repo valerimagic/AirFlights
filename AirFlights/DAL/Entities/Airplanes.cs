@@ -19,6 +19,6 @@ namespace DAL.Entities
         [MaxLength(20)]
         public string CompanyOwner { get; set; }
 
-
+        public ICollection<Flights> Flightses { get; set; } = new HashSet<Flights>();
     }
 }
