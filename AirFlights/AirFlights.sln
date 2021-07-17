@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{73986004-60BD-4CC4-AED2-B463068B7948}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{73986004-60BD-4CC4-AED2-B463068B7948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirFlightsAPI", "AirFlightsAPI\AirFlightsAPI.csproj", "{55472657-A9B0-443F-B925-D850D2C348DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{6231B12E-ED01-42BD-A968-12D8AC074FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servise", "Servise\Servise.csproj", "{421B047A-45A0-4D54-8A11-0FBAA8BA216B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{73986004-60BD-4CC4-AED2-B463068B7948}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73986004-60BD-4CC4-AED2-B463068B7948}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73986004-60BD-4CC4-AED2-B463068B7948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55472657-A9B0-443F-B925-D850D2C348DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55472657-A9B0-443F-B925-D850D2C348DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55472657-A9B0-443F-B925-D850D2C348DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55472657-A9B0-443F-B925-D850D2C348DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6231B12E-ED01-42BD-A968-12D8AC074FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6231B12E-ED01-42BD-A968-12D8AC074FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6231B12E-ED01-42BD-A968-12D8AC074FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6231B12E-ED01-42BD-A968-12D8AC074FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421B047A-45A0-4D54-8A11-0FBAA8BA216B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421B047A-45A0-4D54-8A11-0FBAA8BA216B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421B047A-45A0-4D54-8A11-0FBAA8BA216B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421B047A-45A0-4D54-8A11-0FBAA8BA216B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
