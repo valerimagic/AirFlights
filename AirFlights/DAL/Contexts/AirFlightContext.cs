@@ -11,6 +11,7 @@ namespace DAL.Contexts
     {
         public DbSet<Airplanes> Airplaneses { get; set; }
         public DbSet<Flights> Flightses { get; set; }
+        public DbSet<Logins> Loginses { get; set; }
         public DbSet<Passengers> Passengerses { get; set; }
         public DbSet<RegistrationDetails> RegistrationDetailses { get; set; }
 
