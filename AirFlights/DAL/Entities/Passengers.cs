@@ -20,7 +20,7 @@ namespace DAL.Entities
         [MaxLength(15)]
         public string PassportNumber { get; set; }
 
-        [Required]
+        
         [MaxLength(3)]
         public string LuggageKG { get; set; }
 
